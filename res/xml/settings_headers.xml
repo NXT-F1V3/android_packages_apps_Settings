@@ -207,7 +207,14 @@
         android:icon="@drawable/ic_settings_applications"
         android:fragment="com.android.settings.applications.AppOpsSummary"
         android:title="@string/appops_settings" />
-
+		
+	<!-- Wakelock blocker -->
+    <header
+        android:id="@+id/wakelock_blocker"
+        android:title="@string/wakelock_blocker"
+        android:fragment="com.android.settings.wakelock.WakeLockBlocker"
+        android:icon="@drawable/ic_settings_wakelock_blocker"
+        android:layout="@layout/preference_wakelockblocker" />
 
     <!-- Language -->
     <header
