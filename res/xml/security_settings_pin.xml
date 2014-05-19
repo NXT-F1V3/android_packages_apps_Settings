@@ -15,10 +15,18 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="@string/category_lockscreen" />
+		
+        <PreferenceScreen
+            android:key="lockscreen_link"
+            android:title="@string/lockscreen_settings_title"
+			android:summary="@string/category_lockscreen_summary"
+            android:fragment="org.omnirom.omnigears.interfacesettings.LockscreenSettings" />
 
-    <PreferenceCategory
-        android:key="security_category"
-        android:title="@string/lock_settings_title">
+		<PreferenceCategory
+			android:key="security_category"
+			android:title="@string/lock_settings_title">
 
         <PreferenceScreen
             android:key="unlock_set_or_change"
@@ -49,11 +57,6 @@
         <CheckBoxPreference
             android:key="keyguard_enable_widgets"
             android:title="@string/security_enable_widgets_title"/>
-
-        <PreferenceScreen
-            android:key="lockscreen_link"
-            android:title="@string/lockscreen_settings_title"
-            android:fragment="org.omnirom.omnigears.interfacesettings.LockscreenSettings" />
 
         <PreferenceScreen
             android:fragment="com.android.settings.OwnerInfoSettings"
