@@ -46,7 +46,6 @@ import android.util.Log;
 import com.android.internal.telephony.util.BlacklistUtils;
 import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.R;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -114,6 +113,9 @@ public class SecuritySettings extends RestrictedSettingsFragment
     private CheckBoxPreference mToggleVerifyApps;
     private CheckBoxPreference mPowerButtonInstantlyLocks;
     private CheckBoxPreference mEnableKeyguardWidgets;
+
+    // private CheckBoxPreference mSeeThrough;
+    private CheckBoxPreference mMaximizeKeyguardWidgets;
 
     private Preference mNotificationAccess;
 
