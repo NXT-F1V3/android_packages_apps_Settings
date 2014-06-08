@@ -30,7 +30,6 @@
         <item name="ic_wps">@drawable/ic_wps_dark</item>
         <item name="setup_divider_color">@color/setup_divider_color_dark</item>
         <item name="wifi_signal">@drawable/wifi_signal_dark</item>
-        <item name="android:textColor">@color/grey_text</item>
     </style>
 
     <style name="SetupWizardWifiTheme.Light" parent="android:Theme.Holo.Light.NoActionBar">
@@ -42,7 +41,6 @@
         <item name="ic_wps">@drawable/ic_wps_light</item>
         <item name="setup_divider_color">@color/setup_divider_color_light</item>
         <item name="wifi_signal">@drawable/wifi_signal_light</item>
-        <item name="android:textColor">@color/grey_text</item>
     </style>
 
     <style name="Theme.WifiDialog" parent="@*android:style/Theme.Holo.Dialog.Alert">
@@ -51,7 +49,6 @@
         <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_moreoverflow_holo_dark</item>
         <item name="ic_wps">@drawable/ic_wps_dark</item>
         <item name="wifi_signal">@drawable/wifi_signal_dark</item>
-        <item name="android:textColor">@color/grey_text</item>
     </style>
 
     <style name="Theme.Light.WifiDialog" parent="@*android:style/Theme.Holo.Light.Dialog.Alert">
@@ -62,7 +59,7 @@
         <item name="wifi_signal">@drawable/wifi_signal_light</item>
     </style>
 
-    <style name="Theme.Settings" parent="@android:style/Theme.Holo">
+    <style name="Theme.Settings" parent="@android:style/Theme.Holo.Light">
         <item name="@*android:preferenceHeaderPanelStyle">@style/PreferenceHeaderPanelSinglePane</item>
         <item name="@*android:preferencePanelStyle">@style/PreferencePanelSinglePane</item>
         <item name="@*android:preferenceListStyle">@style/PreferenceHeaderListSinglePane</item>
@@ -74,7 +71,6 @@
         <item name="ic_wps">@drawable/ic_wps_dark</item>
         <item name="wifi_signal">@drawable/wifi_signal_dark</item>
         <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar.Solid</item>
-        <item name="android:background">@color/white</item>
     </style>
 
     <style name="Theme.Settings.DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge">
