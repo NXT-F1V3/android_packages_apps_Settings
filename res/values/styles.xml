@@ -248,4 +248,11 @@
     <style name="ApnPreference">
         <item name="android:layout">@layout/apn_preference_layout</item>
     </style>
+
+    <!--AOSPE New additions for White settings-->
+<!--
+    <style name="Light_ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@colors/white_action</item>
+    </style>
+-->
 </resources>
