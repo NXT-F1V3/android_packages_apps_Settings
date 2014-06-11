@@ -42,6 +42,7 @@
             android:targetPackage="com.cyanogenmod.settings.device"
             android:targetClass="com.cyanogenmod.settings.device.TouchscreenGestureSettings" />
     </Preference>
+
     <PreferenceScreen
 	android:key="lcd_density_setup"
         android:fragment="com.android.settings.n5x.DensityChanger"
