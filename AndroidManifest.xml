@@ -695,8 +695,8 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="org.omnirom.omnigears.interfacesettings.MoreInterfaceSettings" />
-            <!--<meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/interface_more" />-->
+            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
+                android:resource="@id/interface_more" />
         </activity>
 
         <activity android:name="Settings$ActiveDisplaySettingsActivity"

@@ -107,15 +107,13 @@
         android:fragment="org.omnirom.omnigears.chameleonos.ActiveDisplaySettings"
         android:icon="@drawable/ic_settings_ad" />
 
-    <!--
     <header
         android:id="@+id/interface_more"
         android:title="@string/interface_more_title"
         android:breadCrumbTitle="@string/interface_more_title"
         android:fragment="org.omnirom.omnigears.interfacesettings.MoreInterfaceSettings"
         android:icon="@drawable/empty_icon" />
-	-->
-	
+
     <!-- PERSONAL -->
     <header android:id="@+id/personal_section"
         android:title="@string/header_category_personal" />
@@ -299,13 +297,12 @@
     </header>
 
     <!-- Performance Controls -->
-    <!--<header
+    <header
         android:id="@+id/performance_controls"
         android:fragment="com.brewcrewfoo.performance.activities.MainActivity"
         android:icon="@drawable/ic_settings_performance"
         android:title="@string/performance_settings" />
-	-->
-	
+
     <!-- About Device -->
     <header
         android:id="@+id/about_settings"
