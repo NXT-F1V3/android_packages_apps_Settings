@@ -118,14 +118,6 @@
     <header android:id="@+id/personal_section"
         android:title="@string/header_category_personal" />
 
-    <!-- Theme chooser -->
-    <header
-        android:id="@+id/theme_settings"
-        android:title="@string/themes_settings_title"
-        android:breadCrumbTitle="@string/themes_settings_title"
-        android:fragment="com.android.settings.ThemeSettings"
-        android:icon="@drawable/prd_ic_themepacks" />
-        
     <!-- Security -->
     <header
         android:fragment="com.android.settings.SecuritySettings"
@@ -214,7 +206,6 @@
         android:id="@+id/manufacturer_settings">
         <intent android:action="com.android.settings.MANUFACTURER_APPLICATION_SETTING" />
     </header>
-
 
     <!-- Advanced Settings -->
     <header
