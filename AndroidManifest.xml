@@ -1705,23 +1705,8 @@
             android:theme="@style/CryptKeeperBlankTheme"
         />
 
-<<<<<<< HEAD
         <activity android:name=".LockscreenTargets" />
-=======
-        <!-- CyanogenMod activities Start -->
-        <activity android:name="Settings$SystemSettingsActivity"
-                android:label="@string/system_settings_title"
-                android:taskAffinity=""
-                android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.cyanogenmod.SystemUiSettings" />
-            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/system_settings" />
-        </activity>
+        <!-- NXT-F1V3 activities Start -->
     	
 		<activity android:name=".nxtfive.NxtFiveTools"
             android:label="NXT-F1V3 Tools" >
